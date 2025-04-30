@@ -1,5 +1,5 @@
-function greet(name) {
-  return `Hello ${name}`;
+function id() {
+  return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
-module.exports = { greet };
+module.exports = id;

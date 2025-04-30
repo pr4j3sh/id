@@ -1,27 +1,31 @@
-# Javascript NPM Package/Library
+# id
 
-This is a javascript npm package commonjs module starter template. It produces both `cjs` and `esm` module builds.
+This is a javascript npm package that generates general purpose unique hash/ids.
 
-It provides both package scenarios:
+## Installation
 
-- library
-- binary
+```bash
+npm i @pr4j3sh/id
+```
 
 ## Usage
 
-- Clone using `@pr4j3sh/frames`
+- CJS
 
 ```bash
-npm create @pr4j3sh/frames@latest javascript mypkg
+const id = require("@pr4j3sh/id");
+
+console.log(id());
 ```
 
-- Run using
+- MJS
 
 ```bash
-npm run dev
-```
 
-> By default `javascript` package is of type `cjs`. However, the final builds supports both, `cjs` and `esm`.
+import id from "@pr4j3sh/id";
+
+console.log(id());
+```
 
 ## Reference
 

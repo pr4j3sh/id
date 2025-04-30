@@ -1,15 +1,12 @@
 {
-  "name": "javascript",
-  "description": "NPM package template.",
+  "name": "@pr4j3sh/id",
+  "description": "generates random unique general purpose hash/ids",
   "version": "1.0.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
     "require": "./dist/index.cjs",
     "import": "./dist/index.mjs"
-  },
-  "bin": {
-    "javascript": "dist/index.cjs"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
@@ -21,6 +18,9 @@
     "dist"
   ],
   "keywords": [
+    "unique",
+    "id",
+    "hash",
     "npm",
     "javascript",
     "commonjs",
@@ -28,13 +28,13 @@
   ],
   "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.github.io/pr4j3sh/)",
   "license": "MIT",
-  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "homepage": "https://github.com/pr4j3sh/id#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pr4j3sh/javascript.git"
+    "url": "git+https://github.com/pr4j3sh/id.git"
   },
   "bugs": {
-    "url": "https://github.com/pr4j3sh/javascript/issues"
+    "url": "https://github.com/pr4j3sh/id/issues"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",

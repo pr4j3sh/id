@@ -1,9 +1,3 @@
-#!/usr/bin/env node
+const id = require("./src/utils");
 
-const { greet } = require("./src/utils");
-
-console.log(greet("frames"));
-
-module.exports = {
-  greet,
-};
+module.exports = id;
